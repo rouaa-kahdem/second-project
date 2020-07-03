@@ -1,0 +1,135 @@
+* {
+    box-sizing:border-box;
+}
+
+.contianer {
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.contianer .box {
+    height: 50px;
+    line-height: 50px;  
+    position: relative;
+    color: #fff;
+    z-index: 2;
+
+}
+
+.normal:before {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    content: "Noemal Hover";
+}
+
+.transition:before {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    content: "Transition Hover";
+}
+
+.animation:before {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    content: "Animation Hover";
+}
+
+
+
+.normal .box {
+    background-color: rgb(115, 115, 172);
+}
+
+.transition .box {
+    background-color:rgb(235, 148, 148);
+}
+
+.animation .box {
+    background-color: #c8362a;
+}
+
+.contianer a {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(31, 10, 2);
+    width: 250px;
+    color:#fff;
+    text-decoration: none;
+    position: relative;
+    top:-50px;
+}
+
+.contianer:hover a {
+    top:0px
+} 
+
+
+.transition a {
+    transition :all .5s ease-in-out;
+}
+
+
+.animation a {
+    transition :all .5s ease-in-out;
+
+}
+
+.animation:hover {
+    transform-origin: top;
+    animation: rouaa 1.5s ease-in-out ;
+}
+
+
+@keyframes rouaa {
+    0% {
+        transform:rotateX(-50deg)
+    }
+
+    20% {
+        transform:rotateX(50deg)
+    }
+
+    40% {
+        transform:rotateX(-30deg)
+    }
+
+    60% {
+        transform:rotateX(30deg)
+    }
+
+    80% {
+        transform:rotateX(-30deg)
+    }
+
+   100% {
+        transform:rotateX(0deg)
+    }
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+

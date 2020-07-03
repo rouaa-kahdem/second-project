@@ -1,0 +1,71 @@
+.contianer {
+   margin: 17px auto;
+    
+    border: 1px solid black;
+    padding: 10px;
+    width: 600px;
+    background-color: #f9f5ee;
+}
+
+
+.contianer div {
+    width: 550px;
+    margin: 10px;
+    background-color: white;
+}
+
+.contianer div p {
+    
+    text-align: center;
+    padding: 5px;
+    display:inline-block;
+    margin-left: -14px;
+    margin-right: 20px;
+}
+.contianer div:first-of-type {
+    border-left: 3px solid #5adaae;
+    
+}
+
+.contianer div p:first-of-type {
+    border-radius: 50px ;
+    background-color: #5adaae;
+    color: white;
+    width: 17px;
+}
+
+.contianer div:nth-of-type(2) {
+    border-left: 3px solid #9488cc;
+}
+
+.contianer div:nth-of-type(2) p:first-of-type {
+    border-radius: 50px ;
+    background-color: #9488cc;
+    color: white;
+    width: 17px;
+}
+
+.contianer div:nth-of-type(3) {
+    border-left: 3px solid rgb(132, 210, 197);
+}
+
+.contianer div:nth-of-type(3) p:first-of-type {
+    border-radius: 50px ;
+    background-color: rgb(132, 210, 197);
+    color: white;
+    width: 17px;
+
+}
+
+
+
+.contianer div:last-of-type {
+    border-left: 3px solid rgb(226, 156, 190);
+}
+
+.contianer div:last-of-type p:first-of-type {
+    border-radius: 50px ;
+    background-color:rgb(226, 156, 190) ;
+    color: white;
+    width: 17px;
+}

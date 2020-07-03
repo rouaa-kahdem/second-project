@@ -1,0 +1,69 @@
+.contianer {
+    margin: 31px auto;
+    border: 1px solid #080;
+    width: 1299px;
+    height: 352px;
+    display: flex;
+    outline: 10px solid #e8e5ea;
+   
+
+    
+}
+
+
+h2 {
+    color: white;
+    margin: -255px  -143px  30px 50px;
+}
+
+ .boxone , .boxtwo {
+    width: 590px;
+    height: 312px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 62px;
+    
+}
+ .contianer .boxone {
+     background-color: green;
+ }
+
+ .contianer .boxtwo {
+    background-color: black;
+}
+
+
+
+
+.first, .second, .third {
+    width: 276px;
+    height: 115px;
+    border: 1px solid #080;
+    line-height: 19px;
+    border-radius: 45px 0px 0px 0px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    margin: 17px;
+
+}
+
+.second {
+    margin-right:-178px;
+}
+
+
+
+img {
+
+    width: 76px;
+     height: 72px;
+     border-radius: 0px 0px 25px 0px;
+    position: absolute;
+    bottom: -29px;
+    right: -22px;
+}
+

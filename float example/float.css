@@ -1,0 +1,90 @@
+* {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.box {
+    width: 750px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 50px auto;
+    outline: 8px solid #ecd3e5;
+}
+
+.box .one {
+    width: 200px;
+    height: 150px;
+    background-color: #ca7476;
+    float: left;
+    line-height: 136px;
+}
+
+
+.box .two {
+    width: 400px;
+    height: 75px;
+    background-color: #a06f90;
+    float: left;
+    text-align: center;
+    line-height: 71px;
+}
+
+.box .three {
+    width: 400px;
+    height: 75px;
+    background-color: #99aba9;
+    float: left;
+    line-height: 71px;
+}
+
+.box .four {
+    width: 150px;
+    height: 151px;
+    background-color: #b6bd1b;
+    float: left;
+    margin-top: -76px;
+    line-height: 136px;
+}
+
+
+.box .five {
+    width: 300px;
+    height: 75px;
+    background-color: #44946d;
+    float: left;
+    line-height: 71px;
+}
+
+.box .six {
+    width: 150px;
+    height: 75px;
+    background-color: #8845a7;
+    float: left;
+    line-height: 71px;
+}
+
+.box .eight {
+    width: 300px;
+    height: 150px;
+    background-color: #c15182;
+    float: left;
+    margin-top: -75px;
+    line-height: 136px;
+}
+
+
+.box .seven {
+    width: 450px;
+    height: 75px;
+    background-color: #273548;
+    float: left;
+    line-height: 71px;
+}
+
+
+
+

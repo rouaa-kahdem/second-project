@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contianer {
+   width: 800px;
+   height: 404px;
+   padding: 10px;
+    margin: 15px auto;
+    border:1px solid #080;
+    background-color: #57b9a1;
+    -webkit-column-count: 2;
+    column-count: 2;
+   
+    -webkit-column-rule: 2px solid #c1eada;
+    column-rule: 2px solid #c1eada;
+}
+
+
+.box {
+    width: 300px;
+    height: 294px;
+    border: 1px solid #080;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    margin: 50px;
+    border-radius: 15px;
+
+}
+
+
+.box header {
+    width: 298px;
+    height: 84px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+ p {
+    height: 45px;
+    background-color: #c1eada;
+    width: 45px;
+    border-radius: 50%;
+    float: right;
+    text-align: center;
+    padding: 10px;
+    margin-top: -204px;
+    margin-right: -31px;
+    
+ }
+.box .child {
+    border-radius: 10px;
+    width: 263px;
+    height: 200px;
+    border: 1px solid #ded7d7;
+    margin: -24px 17px;
+    background-color: white;
+    box-shadow: 2px 2px 2px white , -2px -2px 2px white;
+    text-align: left;
+    
+}
+
+button {
+    width: 145px;
+    height: 34px;
+    background-color: #57b9a1;
+    color: white;
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

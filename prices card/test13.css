@@ -1,0 +1,118 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contianer {
+    border: 1px solid black;
+    margin: 20px auto;
+     width:  750px;
+     height: 737px;
+     outline: 4px solid #c9d9e6;
+     padding: 20px;
+
+}
+
+
+.box ,.secondbox{
+    width: 323px;
+    height: 595px;
+    margin: 111px 20px 20px 20px;
+    text-align: center;
+    float: left;
+}
+
+.box {
+
+    background-color: #2196F3;
+    border: 1px solid white;
+}
+
+ .circle , .secondcircle {
+    width: 175px;
+    height: 175px;
+    border-radius: 111px;
+    margin-left: 67px;
+    margin-top: -97px;
+    background-color: white;
+}
+.circle {
+    border: 1px solid #2196F3;
+}
+
+
+.secondcircle {
+    border: 1px solid gray;
+}
+
+
+
+.box .circle .second .first {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #2196F3;
+    border-radius: 50px;
+    margin-top: -168px;
+    margin-left: 113px;
+    background-color: white;
+    color: #2196F3;
+    line-height: 46px;
+}
+
+.box .circle .second, .secondbox .secondcircle .smallcircle {
+    width: 145px;
+    height: 145px;
+    border: 1px solid #2196F3;
+    background-color: #2196F3;
+    border-radius: 127px;
+    margin: 12px auto;
+    text-align: center;
+    line-height: 20px;
+    
+}
+
+
+.secondbox .secondcircle .smallcircle {
+    border: 1px solid gray;
+    background-color: gray;
+}
+
+span {
+    font-size: 56px;
+    margin-top: 20px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    color: #2196F3;
+    font-size: 25px;
+    margin: 25px auto;
+}
+
+.contianer .secondbox {
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    
+
+}
+
+.contianer div:last-of-type button{
+    background-color: #2196F3;
+    color: white;
+
+}
+
+hr {
+    background: gray;
+}
+
+
+
+
+
+
+
+ 
